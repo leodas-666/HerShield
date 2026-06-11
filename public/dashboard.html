@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HerShield Dashboard</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -12,27 +10,34 @@
     <h1>HerShield Dashboard</h1>
   </div>
 
+  <div style="padding:10px; background:#ddd; text-align:center;">
+    <a href="/admin">Admin</a> |
+    <a href="/register">Create User</a> |
+    <a href="/logout">Logout</a>
+  </div>
+
   <div class="container">
 
     <div class="card">
-      <h3>System Status</h3>
+      <h2>System Status</h2>
       <p>System operational.</p>
     </div>
 
     <div class="card">
-      <h3>Actions</h3>
+      <h2>Quick Actions</h2>
 
       <a href="/admin">
-        <button type="button">Admin Panel</button>
+        <button>Admin Panel</button>
       </a>
 
       <a href="/register">
-        <button type="button">Create User</button>
+        <button>Create User</button>
       </a>
 
       <a href="/logout">
-        <button type="button">Logout</button>
+        <button>Logout</button>
       </a>
+
     </div>
 
   </div>
