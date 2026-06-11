@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - HerShield</title>
+</head>
+
+<body style="text-align:center; font-family:Arial, sans-serif; padding-top:80px;">
+
+  <h1>Register</h1>
+
+  <form method="POST" action="/register">
+    <input 
+      name="username" 
+      placeholder="New Username" 
+      required 
+    />
+    <br><br>
+
+    <input 
+      name="password" 
+      type="password" 
+      placeholder="New Password" 
+      required 
+      minlength="4"
+    />
+    <br><br>
+
+    <button type="submit">Create Account</button>
+  </form>
+
+  <br>
+
+  <a href="/login">Go to Login</a>
+
+</body>
+</html>
